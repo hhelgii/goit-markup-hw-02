@@ -1,0 +1,145 @@
+:root{
+    --primary-brand-color:#4D5AE5;
+    --dark-color:#2E2F42;
+    --text-color:#434455;
+    --accent-color:#E7E9FC;
+    --light-color:#F4F4FD;
+    --standart-letter-spacing:0.02em;
+    --standart-line-height:1.5;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-color);
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--primary-brand-color);
+}
+.btn {
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: inherit;
+}
+.logo-web {
+    color: var(--primary-brand-color);
+}
+.navigation-link {
+    font-weight: 700;
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    letter-spacing: var(--standart-letter-spacing);
+    color: inherit;
+}
+.contacts-link {
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    letter-spacing: var(--standart-letter-spacing);
+    color: var(--text-color);
+}
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: var(--standart-letter-spacing);
+    color: #fff;
+}
+.order-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: var(--primary-brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: var(--standart-letter-spacing);
+    text-transform: capitalize;
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: var(--standart-letter-spacing);
+}
+.caption-text {
+   
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    letter-spacing: var(--standart-letter-spacing);
+    color: var(--text-color);
+}
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: var(--standart-letter-spacing);
+}
+.team-member-position {
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    text-align: center;
+    letter-spacing: var(--standart-letter-spacing);
+    color: var(--text-color);
+}
+.after-logo-description {
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    letter-spacing: var(--standart-letter-spacing);
+    color: var(--accent-color);
+}
+
+.filter-button {
+    font-weight: 700;
+    font-size: inherit;
+    line-height: var(--standart-line-height);
+    letter-spacing: 0.04em;
+    color: var(--primary-brand-color);
+    background-color: var(--light-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: #fff;
+}
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: var(--standart-letter-spacing);
+}
+.service-category {
+    /* font-size: 16px; */
+    line-height: var(--standart-line-height);
+    letter-spacing: var(--standart-letter-spacing);
+    color: var(--text-color);
+}
