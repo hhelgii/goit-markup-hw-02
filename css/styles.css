@@ -50,11 +50,18 @@ body {
     letter-spacing: var(--standart-letter-spacing);
     color: inherit;
 }
+.current {
+    color: var(--primary-brand-color);
+}
 .contacts-link {
     /* font-size: 16px; */
     line-height: var(--standart-line-height);
     letter-spacing: var(--standart-letter-spacing);
     color: var(--text-color);
+}
+.main-section,
+.footer-section {
+    background-color: var(--dark-color);
 }
 .main-title {
     font-size: 56px;
@@ -74,6 +81,9 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+.team-section {
+    background-color: var(--light-color);
+}
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -81,9 +91,20 @@ body {
     letter-spacing: var(--standart-letter-spacing);
     text-transform: capitalize;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .caption {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: var(--standart-letter-spacing);
@@ -96,7 +117,7 @@ body {
     color: var(--text-color);
 }
 .team-member-name {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -117,6 +138,7 @@ body {
 }
 
 .filter-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: inherit;
     line-height: var(--standart-line-height);
@@ -142,4 +164,7 @@ body {
     line-height: var(--standart-line-height);
     letter-spacing: var(--standart-letter-spacing);
     color: var(--text-color);
+}
+.footer-section {
+    color: #fff;
 }
